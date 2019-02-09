@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activties.MainActivity"
+    >
+
+   <TextClock
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:format12Hour="hh:mm:ss a"
+       android:textColor="#d41709"
+       android:textSize="60dp"
+       android:layout_marginTop="60dp"
+       android:layout_centerHorizontal="true"
+       android:id="@+id/clock"
+       />
+
+   <ImageView
+       android:id="@+id/in"
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:src="@drawable/punchin"
+       android:layout_marginLeft="30dp"
+       android:layout_below="@+id/clock"
+       android:layout_marginTop="40dp"
+       />
+   <TextView
+
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="SIGN IN"
+       android:layout_below="@id/in"
+       android:textSize="15dp"
+       android:textColor="#04B45F"
+       android:textStyle="bold"
+       android:layout_marginTop="4dp"
+       android:layout_marginLeft="45dp"/>
+
+   <ImageView
+       android:id="@+id/out"
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:src="@drawable/punchout"
+       android:layout_alignParentRight="true"
+       android:layout_below="@+id/clock"
+       android:layout_marginRight="30dp"
+       android:layout_marginTop="40dp"
+       />
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="SIGN OUT"
+       android:layout_below="@id/out"
+       android:textSize="15dp"
+       android:textColor="#FA5858"
+       android:textStyle="bold"
+       android:layout_alignParentRight="true"
+       android:layout_marginRight="45dp"
+       android:layout_marginTop="4dp"
+       />
+
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="23,March 2017"
+       android:id="@+id/date"
+       android:layout_alignParentBottom="true"
+       android:gravity="center"
+       android:textColor="#d41709"
+       android:textSize="20dp"
+       android:layout_marginBottom="10dp"
+       />
+</RelativeLayout>

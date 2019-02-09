@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A8F1DB"
+    tools:context=".Activties.InOutActivity">
+    <ImageView
+        android:id="@+id/signin"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/punchin"
+        android:layout_marginTop="20dp"/>
+    <ImageView
+        android:id="@+id/signout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/punchout"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/confirm"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/greentick"
+        android:layout_marginTop="150dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:inputType="number"
+        android:hint="Enter Employee ID"
+        android:id="@+id/empId"
+        />
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_corner"
+        android:text="Done"
+        android:textColor="#010507"
+        android:textStyle="bold"
+        android:layout_below="@id/empId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        />
+
+
+
+
+</RelativeLayout>

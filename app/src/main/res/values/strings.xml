@@ -1,0 +1,18 @@
+<resources>
+    <string name="overview">Overview</string>
+    <string name="time_sheet">TimeSheet</string>
+    <string name="profile">Profile</string>
+    <string name="app_name">Employee Attendance</string>
+    <string name="title_activity_admin">AdminActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Admin</string>
+    <string name="nav_header_subtitle"></string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_changePass">Change Password</string>
+    <string name="action_logout">Log out</string>
+    <string name="title_custom">Custom</string>
+    <string name="updateEmp">Update</string>
+    <string name="deleteEmp">Delete</string>
+
+</resources>

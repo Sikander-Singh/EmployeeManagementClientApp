@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Wed Jul 25 15:32:36 EDT 2018
+1.base=/Users/jaspreetsingh/Desktop/face code/EmployeeAttendancePro/app/build/intermediates/assets/debug
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=ASSET
+0.path=fonts/Roboto-Medium.ttf
+0.set=ASSET
+0.base=/Users/jaspreetsingh/Desktop/face code/EmployeeAttendancePro/app/build/intermediates/assets/debug
+1.path=faceDetectorCascade.xml

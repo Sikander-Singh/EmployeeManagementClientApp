@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.fotoapparat:facedetector-1.0.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/facedetector-1.0.0.aar/4cf4d282aa8fac9f7469e6c09d073b9b/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/facedetector-1.0.0.aar/4cf4d282aa8fac9f7469e6c09d073b9b/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.fotoapparat/facedetector/1.0.0/5a9300eaccce5903e625b4914807bdba195555c1/facedetector-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
